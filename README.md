@@ -80,7 +80,8 @@ echo "Start ember application"
 start http://localhost:5858
 ```
 
-File: web.config
+### File: web.config
+
 Important note that remove ';' character from value = "index.html;" to value = "index.html"
 
 
