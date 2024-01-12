@@ -4,9 +4,16 @@
 + PowerShell Extension version 2024.0.0
 + Git and Git for Windows
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
-+ Ember.js
++ [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
++ [Ember LTS](https://emberjs.com/releases/lts/)
 + [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
 + Ember App: http://localhost:5858
++ Ember-CLI v5.4.1
+    + [ember-cli](https://www.npmjs.com/package/ember-cli/v/5.4.1)
+    + [ember-cli-sass](https://www.npmjs.com/package/ember-cli-sass/v/11.0.1)
+    + [ember-cli-deploy](https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0)
+    + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
+    + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
 
 # Getting started
 
@@ -100,6 +107,20 @@ echo "Success deploy"
 
 echo "Start ember application"
 start http://localhost:5858
+```
+
+### Advanced
+
+**Ember CLI Deploy**
+
++ https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0
++ https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc
+
+```
+ember deploy development
+ember deploy test
+ember deploy staging
+ember deploy production
 ```
 
 ### File: web.config
