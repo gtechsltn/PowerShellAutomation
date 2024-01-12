@@ -81,6 +81,9 @@ start http://localhost:5858
 ```
 
 File: web.config
+Important note that remove ';' character from value = "index.html;" to value = "index.html"
+
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
