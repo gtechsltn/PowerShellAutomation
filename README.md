@@ -16,7 +16,7 @@
 ember serve --port 4300
 ```
 
-Step-By-Step
+**Step-By-Step**
 
 ```
 D:
@@ -49,13 +49,13 @@ echo "Check resoult  folder .\dist\"
     + test
     + production
 
-ember build -prod
+**ember build -prod**
 
 ```
 ember build --environment production  --output-path dist/
 ```
 
-Step-By-Step
+**Step-By-Step**
 
 ```
 md "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
@@ -105,7 +105,6 @@ start http://localhost:5858
 ### File: web.config
 
 Important note that remove ';' character from **value = "index.html;"** to **value = "index.html"**
-
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
