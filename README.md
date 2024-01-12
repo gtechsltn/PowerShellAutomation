@@ -6,6 +6,7 @@
 + Git for Windows
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
 + [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
++ [Ember vs Node Support](https://git.io/v7S5n)
 + [Ember LTS](https://emberjs.com/releases/lts/)
     + Ember App: http://localhost:5858
     + [Ember Node.js LTS Support](https://blog.emberjs.com/ember-node-lts-support/)
