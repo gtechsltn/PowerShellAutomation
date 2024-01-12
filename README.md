@@ -19,34 +19,76 @@ ember version --verbose
 ember new ThirdSightPortal --no-welcome
 cd .\ThirdSightPortal\
 code .
+
 echo "Add file favicon.ico into folder .\public\assets\"
+
 echo "Change content of index.html"
 <link rel="icon" type="image/x-icon" href="{{rootURL}}assets/favicon.ico" />
 ember build --environment=production
-echo "Check folder .\dist\"
+
+echo "Success develop"
+
+echo "Check resoult  folder .\dist\"
 ```
 
 Deploy
 ```
 md "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
-echo "Open Windows PowerShell as an Administrator"
+
+echo "Open Command Prompt as an Administrator"
 cd "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal"
-Copy-Item -Path .\dist\ -Destination C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\ -Force
+xcopy /s D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\*.* C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\
+
+echo "Or with PowerShell run as an Administrator"
+Copy-Item -Path D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\ -Destination C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\ -Force
+
 echo "Open CMD as an Administrator"
 cd "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal"
+
 echo "Add AppPool"
 %systemroot%\system32\inetsrv\APPCMD add apppool /name:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /managedRuntimeVersion:v4.0
+
 echo "Add Site"
 %systemroot%\system32\inetsrv\APPCMD add site /name:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /bindings:http://*:5858 /physicalpath:"C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
+
 echo "Set Site and Set AppPool"
 %systemroot%\system32\inetsrv\APPCMD set site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /[path='/'].applicationPool:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
+
 echo "Set AppPool to Classic .NET AppPool"
 %systemroot%\system32\inetsrv\AppCmd.exe set app "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember/" /applicationPool:"Classic .NET AppPool"
+
 echo "Set Enable defaultDocument"
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:defaultDocument /enabled:true
-echo "Set Enable directoryBrowse"
-%systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:directoryBrowse /enabled:true
+
 echo "Set defaultDocument to index.html"
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:defaultDocument /+files.[value='index.html;']
+
+echo "Set Enable directoryBrowse"
+%systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:directoryBrowse /enabled:true
+
+echo "Edit file web.config"
+notepad C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\web.config
+
+echo "Don't forget to include your ssl keys in your config"
+
+echo "Success deploy"
+
+echo "Start ember application"
 start http://localhost:5858
+```
+
+File: web.config
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <defaultDocument enabled="true">
+            <files>
+                <clear />
+                <add value="index.html;" />
+            </files>
+        </defaultDocument>
+        <directoryBrowse enabled="true" />
+    </system.webServer>
+</configuration>
 ```
