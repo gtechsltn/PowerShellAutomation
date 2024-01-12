@@ -148,6 +148,18 @@ Important note that remove ';' character from **value = "index.html;"** to **val
 
 ### XCopy
 + https://stackoverflow.com/questions/7170683/copy-all-files-and-folders-from-one-drive-to-another-drive-using-dos-command-pr
+
+**With /y**
+
+y: suppress prompting to confirm whether you want to overwrite a file
+
+```
+xcopy /s /y "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\" "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\"
+xcopy /s /y "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\*.*" "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\"
 ```
 
+**Without /y**
+
+```
+xcopy /s "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\*.*" "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\"
 ```
