@@ -82,7 +82,7 @@ start http://localhost:5858
 
 ### File: web.config
 
-Important note that remove ';' character from value = "index.html;" to value = "index.html"
+Important note that remove ';' character from **value = "index.html;"** to **value = "index.html"**
 
 
 ```
@@ -92,7 +92,7 @@ Important note that remove ';' character from value = "index.html;" to value = "
         <defaultDocument enabled="true">
             <files>
                 <clear />
-                <add value="index.html;" />
+                <add value="index.html" />
             </files>
         </defaultDocument>
         <directoryBrowse enabled="true" />
