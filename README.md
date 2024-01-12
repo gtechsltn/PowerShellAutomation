@@ -6,20 +6,25 @@
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
 + [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
 + [Ember LTS](https://emberjs.com/releases/lts/)
+    + Ember App: http://localhost:5858
+    + [Ember Node LTS Support](https://blog.emberjs.com/ember-node-lts-support/)
+    + Ember-CLI v5.5.0 and v4.12.1
+        + [ember-cli v5.5.0](https://www.npmjs.com/package/ember-cli/v/5.5.0)
+        + [ember-cli v4.12.1](https://www.npmjs.com/package/ember-cli/v/4.12.1)
+        + [ember-cli-sass](https://www.npmjs.com/package/ember-cli-sass/v/11.0.1)
+        + [ember-cli-deploy](https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0)
+        + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
+        + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
 + [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
-+ Ember App: http://localhost:5858
-+ Ember-CLI v5.4.1
-    + [ember-cli](https://www.npmjs.com/package/ember-cli/v/5.4.1)
-    + [ember-cli-sass](https://www.npmjs.com/package/ember-cli-sass/v/11.0.1)
-    + [ember-cli-deploy](https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0)
     + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
-    + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
+    + [Deploying to Multiple Server Environments in Ember](https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc)
 
 # Getting started
 + [Quick Start v2.14.0](https://guides.emberjs.com/v2.14.0/getting-started/quick-start/)
 + [Quick Start v5.4.0](https://guides.emberjs.com/v5.4.0/getting-started/quick-start/)
 + [Quick Start Latest version](https://guides.emberjs.com/release/getting-started/quick-start/)
 + [CMD to PS1](https://www.meziantou.net/convert-cmd-script-to-powershell.htm)
++ [Deploying to Multiple Server Environments in Ember](https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc)
 
 ### Develop
 
