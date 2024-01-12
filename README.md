@@ -4,6 +4,9 @@
 + PowerShell Extension version 2024.0.0
 + Git and Git for Windows
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
++ Ember.js
++ [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
++ Ember App: http://localhost:5858
 
 # Getting started
 
@@ -51,19 +54,19 @@ echo "Add AppPool"
 echo "Add Site"
 %systemroot%\system32\inetsrv\APPCMD add site /name:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /bindings:http://*:5858 /physicalpath:"C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
 
-echo "Set Site and Set AppPool"
+echo "Set Site Name, Site Path and Set AppPool"
 %systemroot%\system32\inetsrv\APPCMD set site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /[path='/'].applicationPool:"HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
 
 echo "Set AppPool to Classic .NET AppPool"
 %systemroot%\system32\inetsrv\AppCmd.exe set app "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember/" /applicationPool:"Classic .NET AppPool"
 
-echo "Set Enable defaultDocument"
+echo "Set defaultDocument Enable = True"
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:defaultDocument /enabled:true
 
-echo "Set defaultDocument to index.html"
+echo "Set defaultDocument to 'index.html'"
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:defaultDocument /+files.[value='index.html;']
 
-echo "Set Enable directoryBrowse"
+echo "Set directoryBrowse Enable = True"
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap_Ember" /section:directoryBrowse /enabled:true
 
 echo "Edit file web.config"
