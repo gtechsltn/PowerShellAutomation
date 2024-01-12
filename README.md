@@ -8,7 +8,7 @@
 + [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
 + [Ember LTS](https://emberjs.com/releases/lts/)
     + Ember App: http://localhost:5858
-    + [Ember Node LTS Support](https://blog.emberjs.com/ember-node-lts-support/)
+    + [Ember Node.js LTS Support](https://blog.emberjs.com/ember-node-lts-support/)
     + Ember-CLI v5.5.0 and v4.12.1
         + [ember-cli v5.5.0](https://www.npmjs.com/package/ember-cli/v/5.5.0)
         + [ember-cli v4.12.1](https://www.npmjs.com/package/ember-cli/v/4.12.1)
