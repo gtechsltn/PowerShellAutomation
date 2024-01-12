@@ -16,6 +16,10 @@
     + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
 
 # Getting started
++ [Quick Start v2.14.0](https://guides.emberjs.com/v2.14.0/getting-started/quick-start/)
++ [Quick Start v5.4.0](https://guides.emberjs.com/v5.4.0/getting-started/quick-start/)
++ [Quick Start Latest version](https://guides.emberjs.com/release/getting-started/quick-start/)
++ [CMD to PS1](https://www.meziantou.net/convert-cmd-script-to-powershell.htm)
 
 ### Develop
 
