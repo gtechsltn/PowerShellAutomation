@@ -2,7 +2,8 @@
 + Windows 11 version 22H2
 + Visual Studio Code latest version
 + PowerShell Extension version 2024.0.0
-+ Git and Git for Windows
++ Git
++ Git for Windows
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
 + [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
 + [Ember LTS](https://emberjs.com/releases/lts/)
@@ -11,10 +12,12 @@
     + Ember-CLI v5.5.0 and v4.12.1
         + [ember-cli v5.5.0](https://www.npmjs.com/package/ember-cli/v/5.5.0)
         + [ember-cli v4.12.1](https://www.npmjs.com/package/ember-cli/v/4.12.1)
-        + [ember-cli-sass](https://www.npmjs.com/package/ember-cli-sass/v/11.0.1)
+        + [ember-cli-app-version](https://www.npmjs.com/package/ember-cli-app-version/v/6.0.1)
         + [ember-cli-deploy](https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0)
-        + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
+        + [ember-cli-sass](https://www.npmjs.com/package/ember-cli-sass/v/11.0.1)        
+        + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)        
         + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
+        + [ember-useragent](https://www.npmjs.com/package/ember-useragent/v/0.12.0)
 + [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
     + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
     + [Deploying to Multiple Server Environments in Ember](https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc)
