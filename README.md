@@ -10,7 +10,14 @@
 
 # Getting started
 
-Develop
+### Develop
+
+```
+ember serve --port 4300
+```
+
+Step-By-Step
+
 ```
 D:
 md D:\PowerShellAutomation
@@ -34,7 +41,22 @@ echo "Success develop"
 echo "Check resoult  folder .\dist\"
 ```
 
-Deploy
+### Deploy
+
++ https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc
++ build environments:
+    + development
+    + test
+    + production
+
+ember build -prod
+
+```
+ember build --environment production  --output-path dist/
+```
+
+Step-By-Step
+
 ```
 md "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember"
 
@@ -98,4 +120,10 @@ Important note that remove ';' character from **value = "index.html;"** to **val
         <directoryBrowse enabled="true" />
     </system.webServer>
 </configuration>
+```
+
+### XCopy
++ https://stackoverflow.com/questions/7170683/copy-all-files-and-folders-from-one-drive-to-another-drive-using-dos-command-pr
+```
+
 ```
