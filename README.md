@@ -6,8 +6,8 @@
 + Git for Windows
 + GitHub: https://github.com/gtechsltn/PowerShellAutomation
 + [Node.js v20.x with NPM v10.2.23 and NVM v1.1.12](https://betterprogramming.pub/how-to-use-nvm-to-manage-node-js-20-and-npm-9-5effff2deba9)
-+ [Ember LTS](https://emberjs.com/releases/lts/)
-    + Ember App: http://localhost:5858
++ [Ember vs Node Support](https://git.io/v7S5n)
++ [Ember LTS](https://emberjs.com/releases/lts/)    
     + [Ember Node.js LTS Support](https://blog.emberjs.com/ember-node-lts-support/)
     + Ember-CLI v5.5.0 and v4.12.1
         + [ember-cli v5.5.0](https://www.npmjs.com/package/ember-cli/v/5.5.0)
@@ -20,6 +20,7 @@
         + [ember-useragent](https://www.npmjs.com/package/ember-useragent/v/0.12.0)
 + [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
     + [Deploying to Multiple Server Environments in Ember](https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc)
+    + Ember App: http://localhost:5858
 
 # Getting started
 + [Quick Start v2.14.0](https://guides.emberjs.com/v2.14.0/getting-started/quick-start/)
