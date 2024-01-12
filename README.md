@@ -19,7 +19,6 @@
         + [ember-uploader](https://www.npmjs.com/package/ember-uploader/v/2.0.0)
         + [ember-useragent](https://www.npmjs.com/package/ember-useragent/v/0.12.0)
 + [Deploy to IIS](https://cli.emberjs.com/release/basic-use/deploying/)
-    + [ember-cli-update](https://www.npmjs.com/package/ember-cli-update/v/2.0.1)
     + [Deploying to Multiple Server Environments in Ember](https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc)
 
 # Getting started
@@ -125,10 +124,9 @@ start http://localhost:5858
 
 **Ember CLI Deploy**
 
-+ https://www.npmjs.com/package/ember-cli-deploy/v/2.0.0
-+ https://dev.to/mattbeiswenger/deploying-to-multiple-server-environments-in-ember-4poc
-
 ```
+ember install ember-cli-deploy
+
 ember deploy development
 ember deploy test
 ember deploy staging
