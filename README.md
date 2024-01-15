@@ -184,4 +184,9 @@ ember-cli-update
 
 # Long Term Support (LTS) releases
 npm install --save-dev ember-source@~5.4.0
+
+npm install --save ember-cli-sass
+npm install --save-dev jquery@^3.0
+ember install @ember/jquery
+npm install --save-dev bootstrap@^3.0
 ```
