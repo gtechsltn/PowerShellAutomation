@@ -170,3 +170,18 @@ xcopy /s /y "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\
 ```
 xcopy /s "D:\PowerShellAutomation\PowerShellAutomation\ThirdSightPortal\dist\*.*" "C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap_Ember\"
 ```
+
+# Ember
++ https://emberjs.com/releases/lts/
++ https://blog.emberjs.com/ember-released-5-4
++ https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md
++ https://www.npmjs.com/package/ember-cli-update
+
+```
+# Update Ember CLI projects
+npm install -g ember-cli-update
+ember-cli-update
+
+# Long Term Support (LTS) releases
+npm install --save-dev ember-source@~5.4.0
+```
